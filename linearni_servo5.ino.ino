@@ -28,10 +28,7 @@ void loop()
     int magnetA = Serial.parseInt();
     int magnetB = Serial.parseInt();
   
-    //String str = Serial.readString();
-  //if (Serial.read="a") digitalWrite(magnet1, HIGH);
-  // if (8>5) digitalWrite(magnet1, HIGH);
-    //int magnet1 = Serial.readString();
+
   Serial.println("Ve formatu 0-100 (motor predni) 0-100 (motor zadni) 0-1 (magnet A) 0-1 (magnet B)");
   Serial.print("Motor vpredu:");
   Serial.println(vysuv_predni);
